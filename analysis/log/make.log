@@ -1,18 +1,20 @@
 --------------------------------------------------------------------------------
-Makelog started: 2023-10-20 17:56:01
-Working directory: /Users/shiqiyang/Documents/github_folders/template/analysis
+Makelog started: 2024-09-06 09:46:08
+Working directory: C:\Users\lucam\Documents\template\analysis
 --------------------------------------------------------------------------------
 Input links successfully created!
 External links successfully created!
 Source logs successfully written!
+WARNING! The following target files have been modified according to git status:
+C:\Users\lucam\Documents\template\data\output\data_cleaned.csv
 Version logs successfully written!
-Executing command: `python  "/Users/shiqiyang/Documents/github_folders/template/analysis/code/analyze_data.py" `
-/usr/local/Caskroom/miniconda/base/envs/template/lib/python3.12/site-packages/linearmodels/panel/model.py:1214: MissingValueWarning: 
+Executing command: `python  "C:\Users\lucam\Documents\template\analysis\code\analyze_data.py" `
+C:\Users\lucam\miniconda3\envs\template\Lib\site-packages\linearmodels\panel\model.py:1219: MissingValueWarning: 
 Inputs contain missing values. Dropping rows with missing observations.
   super().__init__(dependent, exog, weights=weights, check_rank=check_rank)
 
 Output logs successfully written!
 --------------------------------------------------------------------------------
-Makelog ended: 2023-10-20 17:56:09
-Working directory: /Users/shiqiyang/Documents/github_folders/template/analysis
+Makelog ended: 2024-09-06 09:46:14
+Working directory: C:\Users\lucam\Documents\template\analysis
 --------------------------------------------------------------------------------

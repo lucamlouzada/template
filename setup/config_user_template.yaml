@@ -49,7 +49,7 @@ local:
     git-lfs: git-lfs
     python: python
     r: Rscript
-    stata: stata-mp
+    stata: stata-se
     matlab: matlab
     julia : julia
     lyx: lyx
