@@ -1,3 +1,4 @@
 destination | source
+input\regression_subset.csv | C:\Users\lucam\Documents\template\analysis\output\regression_subset.csv
 input\regression.csv | C:\Users\lucam\Documents\template\analysis\output\regression.csv
 input\chips_sold.pdf | C:\Users\lucam\Documents\template\data\output\chips_sold.pdf

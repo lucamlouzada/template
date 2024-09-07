@@ -1,12 +1,12 @@
 --------------------------------------------------------------------------------
-Makelog started: 2024-09-06 10:18:16
+Makelog started: 2024-09-06 17:52:03
 Working directory: C:\Users\lucam\Documents\template\paper_slides
 --------------------------------------------------------------------------------
 Input copies successfully created!
 External copies successfully created!
 Source logs successfully written!
 WARNING! The following target files have been modified according to git status:
-C:\Users\lucam\Documents\template\analysis\output\regression.csv
+C:\Users\lucam\Documents\template\analysis\output\regression_subset.csv
 C:\Users\lucam\Documents\template\data\output\chips_sold.pdf
 Version logs successfully written!
 Executing command: `pdflatex -output-directory=..\latex_auxiliary_dir  "C:\Users\lucam\Documents\template\paper_slides\code\paper.tex"`
@@ -140,6 +140,7 @@ reater. Object streams disabled now.
 [3] (./figures.tex)
 [4 <..\latex_auxiliary_dir/../input/chips_sold.pdf>]
 (..\latex_auxiliary_dir/../output/tables_filled.tex)
+(..\latex_auxiliary_dir/../output/tables_subset_filled.tex)
 [5]
 [6] (..\latex_auxiliary_dir/paper.aux)
 
@@ -150,7 +151,7 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 /fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/ti
 mes/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:
 /texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ..\latex_auxiliary_dir/paper.pdf (6 pages, 58123 bytes).
+Output written on ..\latex_auxiliary_dir/paper.pdf (6 pages, 58203 bytes).
 Transcript written on ..\latex_auxiliary_dir/paper.log.
 
 Executing command: `pdflatex -output-directory=..\latex_auxiliary_dir  "C:\Users\lucam\Documents\template\paper_slides\code\online_appendix.tex"`
@@ -559,6 +560,6 @@ Transcript written on ..\latex_auxiliary_dir/slides.log.
 
 Output logs successfully written!
 --------------------------------------------------------------------------------
-Makelog ended: 2024-09-06 10:18:23
+Makelog ended: 2024-09-06 17:52:09
 Working directory: C:\Users\lucam\Documents\template\paper_slides
 --------------------------------------------------------------------------------

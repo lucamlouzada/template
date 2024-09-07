@@ -11,6 +11,15 @@ def main():
     with open('output/regression.csv', 'w') as f:
         f.write('<tab:regression>' + '\n')
         formatted.to_csv(f, sep = '\t', index = False, header = False)
+        
+        
+    df_subset = df[df['year'] >= 1960]     
+    fit_subset = run_regression(df_subset)
+    formatted_subset = format_model(fit_subset)
+    
+    with open('output/regression_subset.csv', 'w') as f:
+        f.write('<tab:regression_subset>' + '\n')
+        formatted_subset.to_csv(f, sep='\t', index=False, header=False)
     
 def import_data():
     df = pd.read_csv('input/data_cleaned.csv')

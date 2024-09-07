@@ -44,6 +44,9 @@ gs.write_version_logs(PATHS)
 gs.tablefill(template = 'code/tables.tex', 
              inputs   = 'input/regression.csv', 
              output   = 'output/tables_filled.tex')
+gs.tablefill(template = 'code/tables_subset.tex', 
+             inputs   = 'input/regression_subset.csv', 
+             output   = 'output/tables_subset_filled.tex')
 
 ### RUN SCRIPTS
 gs.run_latex(PATHS, program = 'code/paper.tex')

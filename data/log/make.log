@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
-Makelog started: 2024-09-06 10:17:38
+Makelog started: 2024-09-06 17:51:48
 Working directory: C:\Users\lucam\Documents\template\data
 --------------------------------------------------------------------------------
 Input links successfully created!
@@ -30,6 +30,6 @@ WARNING! Certain files tracked by git exceed the config size limit (0.5 MB). See
 C:\Users\lucam\Documents\template\data\output\data_cleaned.csv
 C:\Users\lucam\Documents\template\data\output\data_merged.csv
 --------------------------------------------------------------------------------
-Makelog ended: 2024-09-06 10:17:44
+Makelog ended: 2024-09-06 17:51:54
 Working directory: C:\Users\lucam\Documents\template\data
 --------------------------------------------------------------------------------
