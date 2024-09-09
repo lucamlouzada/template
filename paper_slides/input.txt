@@ -15,6 +15,7 @@
 # This will create a file in `paths['input_dir']` named `destination` that is a copy of `source`.
 
 # Destination  |  Source
+regression_cluster.csv | {root}/analysis/output/regression_cluster.csv
 regression_subset.csv | {root}/analysis/output/regression_subset.csv
 regression.csv | {root}/analysis/output/regression.csv
 chips_sold.pdf | {root}/data/output/chips_sold.pdf

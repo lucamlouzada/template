@@ -1,14 +1,13 @@
 --------------------------------------------------------------------------------
-Makelog started: 2024-09-09 14:50:42
+Makelog started: 2024-09-09 15:51:52
 Working directory: /oak/stanford/groups/gentzkow/lucaml/template/paper_slides
 --------------------------------------------------------------------------------
 Input copies successfully created!
 External copies successfully created!
 Source logs successfully written!
 WARNING! The following target files have been modified according to git status:
-/oak/stanford/groups/gentzkow/lucaml/template/analysis/output/regression_subset.csv
-/oak/stanford/groups/gentzkow/lucaml/template/analysis/output/regression.csv
 /oak/stanford/groups/gentzkow/lucaml/template/data/output/chips_sold.pdf
+/oak/stanford/groups/gentzkow/lucaml/template/analysis/output/regression_cluster.csv
 Version logs successfully written!
 Executing command: `pdflatex -output-directory=../latex_auxiliary_dir  "/oak/stanford/groups/gentzkow/lucaml/template/paper_slides/code/paper.tex"`
 This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex)
@@ -195,8 +194,9 @@ pdfTeX warning (Object streams): \pdfobjcompresslevel > 0 requires \pdfminorver
 sion > 4. Object streams disabled now.
 [1{/share/software/user/open/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdf
 tex.map}] [2] [3] (./figures.tex) [4 <../input/chips_sold.pdf>]
-(../output/tables_filled.tex) (../output/tables_subset_filled.tex) [5] [6]
-(../latex_auxiliary_dir/paper.aux)
+(../output/tables_filled.tex) (../output/tables_subset_filled.tex)
+(../output/tables_cluster_filled.tex) [5] [6] (../latex_auxiliary_dir/paper.aux
+)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
@@ -210,7 +210,7 @@ pfb></share/software/user/open/texlive/2019/texmf-dist/fonts/type1/urw/times/ut
 mb8a.pfb></share/software/user/open/texlive/2019/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></share/software/user/open/texlive/2019/texmf-dist/fonts/type1/ur
 w/times/utmri8a.pfb>
-Output written on ../latex_auxiliary_dir/paper.pdf (6 pages, 69516 bytes).
+Output written on ../latex_auxiliary_dir/paper.pdf (6 pages, 70435 bytes).
 Transcript written on ../latex_auxiliary_dir/paper.log.
 
 Executing command: `pdflatex -output-directory=../latex_auxiliary_dir  "/oak/stanford/groups/gentzkow/lucaml/template/paper_slides/code/online_appendix.tex"`
@@ -800,11 +800,11 @@ texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></share/softw
 are/user/open/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></sha
 re/software/user/open/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.p
 fb>
-Output written on ../latex_auxiliary_dir/slides.pdf (10 pages, 36132 bytes).
+Output written on ../latex_auxiliary_dir/slides.pdf (10 pages, 36134 bytes).
 Transcript written on ../latex_auxiliary_dir/slides.log.
 
 Output logs successfully written!
 --------------------------------------------------------------------------------
-Makelog ended: 2024-09-09 14:50:50
+Makelog ended: 2024-09-09 15:52:01
 Working directory: /oak/stanford/groups/gentzkow/lucaml/template/paper_slides
 --------------------------------------------------------------------------------
