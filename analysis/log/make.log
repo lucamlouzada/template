@@ -1,21 +1,24 @@
 --------------------------------------------------------------------------------
-Makelog started: 2024-09-06 17:51:55
-Working directory: C:\Users\lucam\Documents\template\analysis
+Makelog started: 2024-09-09 15:51:37
+Working directory: /oak/stanford/groups/gentzkow/lucaml/template/analysis
 --------------------------------------------------------------------------------
 Input links successfully created!
 External links successfully created!
 Source logs successfully written!
 Version logs successfully written!
-Executing command: `python  "C:\Users\lucam\Documents\template\analysis\code\analyze_data.py" `
-C:\Users\lucam\miniconda3\envs\template\Lib\site-packages\linearmodels\panel\model.py:1219: MissingValueWarning: 
+Executing command: `python  "/oak/stanford/groups/gentzkow/lucaml/template/analysis/code/analyze_data.py" `
+/home/users/lucaml/miniconda3/envs/template/lib/python3.12/site-packages/linearmodels/panel/model.py:1219: MissingValueWarning: 
 Inputs contain missing values. Dropping rows with missing observations.
   super().__init__(dependent, exog, weights=weights, check_rank=check_rank)
-C:\Users\lucam\miniconda3\envs\template\Lib\site-packages\linearmodels\panel\model.py:1219: MissingValueWarning: 
+/home/users/lucaml/miniconda3/envs/template/lib/python3.12/site-packages/linearmodels/panel/model.py:1219: MissingValueWarning: 
+Inputs contain missing values. Dropping rows with missing observations.
+  super().__init__(dependent, exog, weights=weights, check_rank=check_rank)
+/home/users/lucaml/miniconda3/envs/template/lib/python3.12/site-packages/linearmodels/panel/model.py:1219: MissingValueWarning: 
 Inputs contain missing values. Dropping rows with missing observations.
   super().__init__(dependent, exog, weights=weights, check_rank=check_rank)
 
 Output logs successfully written!
 --------------------------------------------------------------------------------
-Makelog ended: 2024-09-06 17:52:02
-Working directory: C:\Users\lucam\Documents\template\analysis
+Makelog ended: 2024-09-09 15:51:51
+Working directory: /oak/stanford/groups/gentzkow/lucaml/template/analysis
 --------------------------------------------------------------------------------

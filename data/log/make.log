@@ -1,14 +1,17 @@
 --------------------------------------------------------------------------------
-Makelog started: 2024-09-06 17:51:48
-Working directory: C:\Users\lucam\Documents\template\data
+Makelog started: 2024-09-09 15:51:25
+Working directory: /oak/stanford/groups/gentzkow/lucaml/template/data
 --------------------------------------------------------------------------------
 Input links successfully created!
 External links successfully created!
 Source logs successfully written!
+WARNING! The following target files have been modified according to git status:
+/oak/stanford/groups/gentzkow/lucaml/template/raw/tv.csv
+/oak/stanford/groups/gentzkow/lucaml/template/raw/chips.csv
 Version logs successfully written!
-Executing command: `python  "C:\Users\lucam\Documents\template\data\code\merge_data.py" `
-Executing command: `python  "C:\Users\lucam\Documents\template\data\code\clean_data.py" `
-C:\Users\lucam\Documents\template\data\code\clean_data.py:20: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!
+Executing command: `python  "/oak/stanford/groups/gentzkow/lucaml/template/data/code/merge_data.py" `
+Executing command: `python  "/oak/stanford/groups/gentzkow/lucaml/template/data/code/clean_data.py" `
+/oak/stanford/groups/gentzkow/lucaml/template/data/code/clean_data.py:20: FutureWarning: ChainedAssignmentError: behaviour will change in pandas 3.0!
 You are setting values through chained assignment. Currently this works in certain cases, but when using Copy-on-Write (which will become the default behaviour in pandas 3.0) this will never work to update the original DataFrame or Series, because the intermediate object on which we are setting values will behave as a copy.
 A typical example is when you are setting values in a column of a DataFrame, like:
 
@@ -19,17 +22,14 @@ Use `df.loc[row_indexer, "col"] = values` instead, to perform the assignment in 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
 
   df['chips_sold'][df['chips_sold'] == -999999] = np.nan
-C:\Users\lucam\Documents\template\data\code\clean_data.py:20: SettingWithCopyWarning: 
+/oak/stanford/groups/gentzkow/lucaml/template/data/code/clean_data.py:20: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
   df['chips_sold'][df['chips_sold'] == -999999] = np.nan
 
 Output logs successfully written!
-WARNING! Certain files tracked by git exceed the config size limit (0.5 MB). See below for list of files.
-C:\Users\lucam\Documents\template\data\output\data_cleaned.csv
-C:\Users\lucam\Documents\template\data\output\data_merged.csv
 --------------------------------------------------------------------------------
-Makelog ended: 2024-09-06 17:51:54
-Working directory: C:\Users\lucam\Documents\template\data
+Makelog ended: 2024-09-09 15:51:36
+Working directory: /oak/stanford/groups/gentzkow/lucaml/template/data
 --------------------------------------------------------------------------------

@@ -1,4 +1,5 @@
 destination | source
-input\regression_subset.csv | C:\Users\lucam\Documents\template\analysis\output\regression_subset.csv
-input\regression.csv | C:\Users\lucam\Documents\template\analysis\output\regression.csv
-input\chips_sold.pdf | C:\Users\lucam\Documents\template\data\output\chips_sold.pdf
+input/regression_cluster.csv | /oak/stanford/groups/gentzkow/lucaml/template/analysis/output/regression_cluster.csv
+input/regression_subset.csv | /oak/stanford/groups/gentzkow/lucaml/template/analysis/output/regression_subset.csv
+input/regression.csv | /oak/stanford/groups/gentzkow/lucaml/template/analysis/output/regression.csv
+input/chips_sold.pdf | /oak/stanford/groups/gentzkow/lucaml/template/data/output/chips_sold.pdf

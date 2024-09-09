@@ -20,6 +20,13 @@ def main():
     with open('output/regression_subset.csv', 'w') as f:
         f.write('<tab:regression_subset>' + '\n')
         formatted_subset.to_csv(f, sep='\t', index=False, header=False)
+        
+    fit_cluster = run_regression_cluster(df)
+    formatted_cluster = format_model(fit_cluster)
+    
+    with open('output/regression_cluster.csv', 'w') as f:
+        f.write('<tab:regression_cluster>' + '\n')
+        formatted_cluster.to_csv(f, sep='\t', index=False, header=False)
     
 def import_data():
     df = pd.read_csv('input/data_cleaned.csv')
@@ -31,6 +38,13 @@ def run_regression(df):
     df = df.set_index(['county_id', 'year'])
     model = PanelOLS.from_formula('chips_sold ~ 1 + post_tv + EntityEffects + TimeEffects', data = df)
     fit = model.fit()
+    
+    return(fit)
+
+def run_regression_cluster(df):
+    df = df.set_index(['county_id', 'year'])
+    model = PanelOLS.from_formula('chips_sold ~ 1 + post_tv + EntityEffects + TimeEffects', data = df)
+    fit = model.fit(cov_type='clustered', cluster_entity=True)
     
     return(fit)
     

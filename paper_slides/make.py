@@ -41,6 +41,9 @@ gs.get_modified_sources(PATHS, inputs + externals)
 gs.write_version_logs(PATHS)
 
 ### FILL TABLES
+gs.tablefill(template = 'code/tables_cluster.tex', 
+             inputs   = 'input/regression_cluster.csv', 
+             output   = 'output/tables_cluster_filled.tex')
 gs.tablefill(template = 'code/tables.tex', 
              inputs   = 'input/regression.csv', 
              output   = 'output/tables_filled.tex')
