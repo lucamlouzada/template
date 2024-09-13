@@ -1,3 +1,3 @@
 destination | source
-input/lib | /oak/stanford/groups/gentzkow/lucaml/template/lib
-input/data_cleaned.csv | /oak/stanford/groups/gentzkow/lucaml/template/data/output/data_cleaned.csv
+input/lib | /Users/lucaml/template/lib
+input/data_cleaned.csv | /Users/lucaml/template/data/output/data_cleaned.csv

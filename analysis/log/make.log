@@ -1,24 +1,26 @@
 --------------------------------------------------------------------------------
-Makelog started: 2024-09-09 15:51:37
-Working directory: /oak/stanford/groups/gentzkow/lucaml/template/analysis
+Makelog started: 2024-09-13 16:14:03
+Working directory: /Users/lucaml/template/analysis
 --------------------------------------------------------------------------------
 Input links successfully created!
 External links successfully created!
 Source logs successfully written!
+WARNING! The following target files have been modified according to git status:
+/Users/lucaml/template/data/output/data_cleaned.csv
 Version logs successfully written!
-Executing command: `python  "/oak/stanford/groups/gentzkow/lucaml/template/analysis/code/analyze_data.py" `
-/home/users/lucaml/miniconda3/envs/template/lib/python3.12/site-packages/linearmodels/panel/model.py:1219: MissingValueWarning: 
+Executing command: `python  "/Users/lucaml/template/analysis/code/analyze_data.py" `
+/opt/homebrew/Caskroom/miniconda/base/envs/template/lib/python3.12/site-packages/linearmodels/panel/model.py:1219: MissingValueWarning: 
 Inputs contain missing values. Dropping rows with missing observations.
   super().__init__(dependent, exog, weights=weights, check_rank=check_rank)
-/home/users/lucaml/miniconda3/envs/template/lib/python3.12/site-packages/linearmodels/panel/model.py:1219: MissingValueWarning: 
+/opt/homebrew/Caskroom/miniconda/base/envs/template/lib/python3.12/site-packages/linearmodels/panel/model.py:1219: MissingValueWarning: 
 Inputs contain missing values. Dropping rows with missing observations.
   super().__init__(dependent, exog, weights=weights, check_rank=check_rank)
-/home/users/lucaml/miniconda3/envs/template/lib/python3.12/site-packages/linearmodels/panel/model.py:1219: MissingValueWarning: 
+/opt/homebrew/Caskroom/miniconda/base/envs/template/lib/python3.12/site-packages/linearmodels/panel/model.py:1219: MissingValueWarning: 
 Inputs contain missing values. Dropping rows with missing observations.
   super().__init__(dependent, exog, weights=weights, check_rank=check_rank)
 
 Output logs successfully written!
 --------------------------------------------------------------------------------
-Makelog ended: 2024-09-09 15:51:51
-Working directory: /oak/stanford/groups/gentzkow/lucaml/template/analysis
+Makelog ended: 2024-09-13 16:14:06
+Working directory: /Users/lucaml/template/analysis
 --------------------------------------------------------------------------------
